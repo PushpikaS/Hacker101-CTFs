@@ -1,4 +1,8 @@
 # Micro-CMS v1 
+- Platform: Hacker101
+- Category: Web 
+- Difficulty: Easy 
+
 ## Flag0 
 Hints:
 - Try creating a new page
