@@ -29,6 +29,8 @@ Hints:
 - We talk about this in detail in the Hacker101 Crypto Attacks video
 - Don't think about this in terms of an attack against encryption; all you care about is XOR
 
+```https://fa68b684736fccf47e93734ca3627d0b.ctf.hacker101.com/?post=a```
+<img width="1048" height="322" alt="image" src="https://github.com/user-attachments/assets/9a2ecffd-2044-41be-a595-f9e7402af766" />
 
 
 ## Flag2 
