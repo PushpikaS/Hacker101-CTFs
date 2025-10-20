@@ -1,4 +1,4 @@
-# Encrypted Pastebin - IN PROGRESS / NOT COMPLETED
+# Encrypted Pastebin - IN PROGRESS 
 
 - Platform: Hacker101 <br>
 - Category: Web, Crypto  <br>
