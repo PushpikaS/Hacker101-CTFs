@@ -10,11 +10,13 @@ Hints:
 - Take a few minutes to consider the state of the union
 - This application runs on the uwsgi-nginx-flask-docker image
 
+Inspected the code and noticed the ```fetch``` endpoint.
 <img width="700" height="390" alt="image" src="https://github.com/user-attachments/assets/7c7c9fe6-56d1-4343-be88-48c8fade7951" /> <br><br>
 
+Because the second hint mentioned ```union```, a SQL injection was indicated. For this website, the only way to perform this attack would be through the URL. The third hint referenced ```uwsgi-nginx-flask-docker```; since ```Flask``` commonly runs from ```main.py```, ```main.py``` was identified as the primary attack target.
+<br>
 ```d1ae6902fc23e9b5dbf9e2b75d730fcb.ctf.hacker101.com/fetch?id=4 UNION SELECT 'main.py'``` <br><br>
-<img width="1917" height="762" alt="image" src="https://github.com/user-attachments/assets/9d13568d-ffdc-4136-bbf4-48efbc5fa625" />
-
+<img width="1917" height="762" alt="image" src="https://github.com/user-attachments/assets/9d13568d-ffdc-4136-bbf4-48efbc5fa625" />  <br><br>
 
 
 ## Flag1 
