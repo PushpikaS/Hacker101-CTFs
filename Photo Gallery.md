@@ -37,3 +37,14 @@ Hints:
 - That method of finding the size of an album seems suspicious
 - Stacked queries rarely work. But when they do, make absolutely sure that you're committed
 - Be aware of your environment
+
+
+The hint “size of an album seems suspicious” suggests that the app is using a database query to get album information, and the possible injection point is the ```id``` parameter in the ```fetch``` URL. <br>
+The stacked queries hint suggests the database might allow multiple SQL statements in one request using ;, so it may be possible to read/write the database using ```UPDATE```.  <br>
+The hint “be aware of your environment” points toward environment variables on the system, which might contain the flag - meaning the goal is not just to change data, but to retrieve something the system already has stored (for example, ```printenv``` output). <br>
+ <br>
+```https://93c30d16b8c432c6def101bb0adf0570.ctf.hacker101.com/fetch?id=3; UPDATE photos SET filename=";echo $(printenv)" WHERE id=3; commit;``` <br><br>
+<img width="1918" height="812" alt="image" src="https://github.com/user-attachments/assets/6c01c179-1a3a-473f-8d81-5ef4e9b9ee08" />
+
+
+
