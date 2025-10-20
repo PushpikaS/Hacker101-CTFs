@@ -10,7 +10,7 @@ Hints:
 - Take a few minutes to consider the state of the union
 - This application runs on the uwsgi-nginx-flask-docker image
 
-Inspected the code and noticed the ```fetch``` endpoint.
+Inspected the code and noticed the ```fetch``` endpoint. <br>
 <img width="700" height="390" alt="image" src="https://github.com/user-attachments/assets/7c7c9fe6-56d1-4343-be88-48c8fade7951" /> <br><br>
 
 Because the second hint mentioned ```union```, a SQL injection was indicated. For this website, the only way to perform this attack would be through the URL. 
