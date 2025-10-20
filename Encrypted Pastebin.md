@@ -19,10 +19,6 @@ Appending a letter ```a``` to the ```post``` parameter of the URL revealed the f
 ```https://fa68b684736fccf47e93734ca3627d0b.ctf.hacker101.com/?post=!4O!Hw3HZk9facTz2xZKPg-SwD5xjneuRj8r8MzwcXeUcnBVn1NlsEjUXppO6hHzk4NQqSsnip3D3wfW31Mus6aRnUeGMIxEjjEq25Z6-u9a0Q0t10CbUTmHWMqI6qCKX2c!SEoC0Cmu3fM0z8HAt5txw7LGfhW0B3EWhf7HzQTqQCyrWoz5kzROx1RBjnn-c9LtXOrh5unORcg!3KJ2LSQ~~``` <br><br>
 <img width="1022" height="291" alt="image" src="https://github.com/user-attachments/assets/95737794-3941-4585-954e-764a4649c00b" /> <br>
 
-Remediation: <br>
-Validate and canonicalize POST parameters server‑side; reject or canonicalize malformed tokens and enforce strict token format checks before using them to fetch sensitive data.
-<br><br>
-
 
 ## Flag1 
 Hints:
