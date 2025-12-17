@@ -61,7 +61,7 @@ Visited the admin's post using ```id=2``` in the url as shown from the process t
 Hints:
 - The cookie allows you to stay signed in. Can you figure out how they work so you can sign in to user with ID 1?  <br>
 
- In Google Chrome -> Dev tools -> Application -> Cookies  <br>
+ Google Chrome -> Dev tools -> Application -> Cookies  <br>
  The ```id``` cookie is the authentication cookie.   <br><br>
 <img width="787" height="546" alt="image" src="https://github.com/user-attachments/assets/6a011c08-8557-406a-bc11-d1675efc94c4" />  <br><br>
 The ```id``` cookie appeared to be an MD5 hash. To confirm this, an online MD5 hash generator was used. Hashing the value ```2``` produced an MD5 hash that matched the cookie value observed in the browser, suggesting that the cookie was simply an MD5‑encoded user ID.  <br>
