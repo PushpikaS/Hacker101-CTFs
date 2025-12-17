@@ -74,7 +74,7 @@ Since user ID 1 is commonly reserved for an administrator account, a new MD5 has
 Hints:
 - Deleting a post seems to take an ID that is not a number. Can you figure out what it is?  <br>
 
-Inspecting the delete button reveals the following: ```index.php?page=delete.php&amp;id=eccbc87e4b5ce2fe28308fd9f2a7baf3``` 
+Inspecting the delete button reveals the following: ```index.php?page=delete.php&amp;id=eccbc87e4b5ce2fe28308fd9f2a7baf3```  <br>
 The id parameter is an MD5 hash, not a number. Testing confirms that this value is the MD5 hash of the post ID (for example, md5(3)). <br><br>
 
 <img width="600" height="442" alt="image" src="https://github.com/user-attachments/assets/84243093-9d10-46bd-bfec-d998060c3784" /> <br><br>
