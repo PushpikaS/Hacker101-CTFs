@@ -8,7 +8,7 @@
 Hints:
 - The person with username "user" has a very easy password... <br>
 
-Since the hint mentions 'easy password', logged in with username ```user``` and password ```password``` which resulted in a successful login and revealed the flag.
+Since the hint mentions 'easy password', logged in with username: ```user``` and password: ```password``` which resulted in a successful login and revealed the flag.
 <br><br>
 <img width="1918" height="817" alt="image" src="https://github.com/user-attachments/assets/812cf571-2fab-4a11-959a-07ec4929efe9" /> <br><br>
 
