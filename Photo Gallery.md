@@ -13,7 +13,7 @@ Hints:
 Inspected the code and noticed the ```fetch``` endpoint. <br><br>
 <img width="700" height="390" alt="image" src="https://github.com/user-attachments/assets/7c7c9fe6-56d1-4343-be88-48c8fade7951" /> <br><br>
 
-Because the second hint mentioned ```union```, a SQL injection was indicated. For this website, the only way to perform this attack would be through the URL. 
+Because the second hint mentioned ```union```, an SQL injection was indicated. For this website, the only way to perform this attack would be through the URL. 
 <br><br>
 The third hint referenced ```uwsgi-nginx-flask-docker```; since ```Flask``` commonly runs from ```main.py```, ```main.py``` was identified as the primary attack target.
 <br><br>
