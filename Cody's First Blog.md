@@ -10,13 +10,8 @@ Hints:
 - Figuring out what platform this is running on may give you some ideas
 - Code injection usually doesn't work
 
-The page source mentioned that PHP ```include()``` was used, which suggested that page content was loaded dynamically on the server.  <br> 
-
-Viewing the page source showed a commented‑out link containing ```page=admin.auth.inc.```   <br><br>
-<img width="841" height="591" alt="image" src="https://github.com/user-attachments/assets/f668aa7e-031c-4f7a-a148-bea24f098cfa" />  <br>
-
-This suggested that the application uses PHP ```include()``` to load pages dynamically. Since PHP executes code when using ```include()```, it indicated that injected PHP code could run on the server.  <br>
-Based on this, PHP code was injected to echo the predefined FLAG0 constant, which revealed the flag. <br>
+The site states that PHP itself is used as the template language, which means the page runs raw PHP code without a separate templating engine. <br>
+Since the flags are defined server-side, executing PHP to echo the predefined FLAG0 constant caused the server to reveal the flag. <br>
 
 ```
 php
@@ -34,7 +29,9 @@ Hints:
 - Unused code can often lead to information you wouldn't otherwise get
 - Simple guessing might help you out
 
- 
+Viewing the page source showed a commented‑out link containing ```page=admin.auth.inc.```   <br><br>
+<img width="841" height="591" alt="image" src="https://github.com/user-attachments/assets/f668aa7e-031c-4f7a-a148-bea24f098cfa" />  <br>
+
 Given the clue found by viewing the page source — the commented‑out link ```<!--<a href="?page=admin.auth.inc">Admin login</a>-->```  <br>
 It indicated that an admin page exists and is loaded using the page parameter.  <br> 
 Visiting ```https://015360af24deb642acf05bcf6d2034e7.ctf.hacker101.com/?page=admin.auth.inc``` using ```?page=admin.auth.inc``` led to the admin page.  <br> <br>
