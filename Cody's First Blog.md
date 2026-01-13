@@ -52,8 +52,6 @@ Since comments can be submitted and approved, and admin access was gained throug
 
 To view the application from the backend perspective, the page parameter was tested with a local path: ```?page=http://localhost/index```  <br>
 
-This confirmed that local files could be accessed through the vulnerable ```include()```.  <br>
-
 The file ```index.php``` was targeted because it is the default entry point of most PHP applications.  <br>
 
 Using the previously identified PHP injection point, the following payload was submitted as a comment:   <br>
