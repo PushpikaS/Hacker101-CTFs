@@ -57,7 +57,7 @@ The file ```index.php``` was targeted because it is the default entry point of m
 Using the previously identified PHP injection point, the following payload was submitted as a comment:   <br>
 ```<?php echo readfile("index.php"); ?>```  <br>
 
-After approving the comment from the admin panel, the contents of index.php were displayed. Upon checking the page source of the output, a hidden comment containing FLAG2 was revealed.  <br>
+After approving the comment from the admin panel, the contents of ```index.php``` were displayed. Upon checking the page source of the output, a hidden comment containing FLAG2 was revealed.  <br>
 
 <img width="1918" height="795" alt="image" src="https://github.com/user-attachments/assets/e17862a5-6bc9-41f0-ab00-442d7ad211c7" />
 
