@@ -60,7 +60,7 @@ staff.admin = true;
 setupLinks();
 ```
 
-
+<img width="837" height="315" alt="image" src="https://github.com/user-attachments/assets/6450905e-8a03-402d-ae60-e7d919ae2574" />
 
 ``` https://d2a549eebd3c50530dc427f7b64e9350.ctf.hacker101.com/update-student/TmFuY2llX0JyZXR0 ```
 
@@ -69,7 +69,7 @@ setupLinks();
 
 ```https://d2a549eebd3c50530dc427f7b64e9350.ctf.hacker101.com/update-student/TmF0YXNoYV9EcmV3```
 
-<img width="837" height="315" alt="image" src="https://github.com/user-attachments/assets/6450905e-8a03-402d-ae60-e7d919ae2574" />
+
 
 
 
