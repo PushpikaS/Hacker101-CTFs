@@ -2,7 +2,7 @@
 
 - Platform: Hacker101 <br>
 - Category: Web  <br>
-- Difficulty: Medium  <br>
+- Difficulty: Moderate  <br>
 
 ## Flag0 
 Hints:
