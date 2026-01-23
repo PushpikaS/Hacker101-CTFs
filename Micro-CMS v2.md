@@ -1,7 +1,7 @@
 # Micro-CMS v2  
 - Platform: Hacker101 <br>
 - Category: Web <br>
-- Difficulty: Medium
+- Difficulty: Moderate
 
 ## Flag0 - Authentication Bypass via SQL Injection <br><br>
 Hints: <br>
